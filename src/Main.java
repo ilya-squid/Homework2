@@ -1,30 +1,35 @@
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println("Задача 1");
         var dog = 8.0;
         System.out.println(dog);
         var cat = 3.6;
         System.out.println(cat);
         var paper = 763789;
         System.out.println(paper);
+        System.out.println("Задача 2");
         dog = dog + 4;
         System.out.println(dog);
         cat = cat + 4;
         System.out.println(cat);
         paper = paper + 4;
         System.out.println(paper);
+        System.out.println("Задача 3");
         dog = dog - 3.5;
         System.out.println(dog);
         cat = cat - 1.6;
         System.out.println(cat);
         paper = paper - 7639;
         System.out.println(paper);
+        System.out.println("Задача 4");
         var friend = 19;
         System.out.println(friend);
         friend = friend + 2;
         System.out.println(friend);
         friend = friend / 7;
         System.out.println(friend);
+        System.out.println("Задача 5");
         var frog = 3.5;
         System.out.println(frog);
         frog = frog * 10;
@@ -33,5 +38,24 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+        System.out.println("Задача 6");
+        var firstWeight = 78.2;
+        var secondWeight = 82.7;
+        var totalWeight = firstWeight + secondWeight;
+        System.out.println("Общий вес бойцов " + totalWeight + " кг");
+        var differenceWeight = secondWeight - firstWeight;
+        System.out.println("Разница весов бойцов " + differenceWeight + " кг");
+        System.out.println("Задача 7");
+        var differenceWeightvar = secondWeight % firstWeight;
+        System.out.println("Остаток весов бойцов " + differenceWeightvar + " кг");
+        System.out.println("Задача 8");
+        var allTime = 640;
+        var workTime = 8;
+        var staff = allTime / workTime;
+        System.out.println("Всего работников в компании " + staff + " человек");
+        var additionalStaff = 94;
+        var newStaff = staff + additionalStaff;
+        var newTotalTime = newStaff * workTime;
+        System.out.println("Если в компании работает " + newStaff + " человек, то всего " + newTotalTime + " часов работы может быть поделено между сотрудниками");
     }
 }
